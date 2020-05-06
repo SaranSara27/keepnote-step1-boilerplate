@@ -6,6 +6,7 @@ maven-test:
   script: "mvn test"
   stage: test
 stages: 
-  - test
+  -  test
   - build
+
 
